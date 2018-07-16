@@ -91,7 +91,6 @@ bot.on('message', function (user, userID, channelID, message, evt)
                     to: channelID,
                     message: 'I think m.2 ssds are 4x or something faster than sata 600mb/s \nidk how that affects iops and small file processing speed tho \n "what\'s the difference between m.2 and pcie drives" \nthat I got no clu'
                 });
-				//message.channel.send("My Bot's message", {files: ["https://i.imgur.com/XxxXxXX.jpg"]});
 				break;
 			case 'albert':
                 bot.sendMessage
