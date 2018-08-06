@@ -4,7 +4,6 @@ const economy = require('discord-eco');
 const fs = require("fs");
 // Create an instance of a Discord client
 const client = new Discord.Client();
-const token = 'NDYyNzkxOTc1NDkwNTUxODA4.DhnAKw.AkURR8jb6MKwsQDybtQ7zKTdED0';
 let stats = JSON.parse(fs.readFileSync("stats.json", "utf8"));
 // Quick simulation for gatcha
 client.on('ready', () => {
